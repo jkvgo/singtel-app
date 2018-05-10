@@ -1,0 +1,45 @@
+#root{
+	.App{
+		font-family: calibri;
+		font-size:18px;
+		.placeholder{
+			font-size: 120%;
+			margin-bottom: 20px;
+		}
+		.bar-container{
+			width: 100%;
+			height: 50px;
+			position: relative;
+			background-color: #E0E0E0;
+			border-radius: 5px;
+			margin-bottom: 15px;
+			.bar-color{
+				height: 100%;
+				transition: width 0.8s;
+				border-radius: 5px;
+			}
+			.bar-text{
+				position: absolute;
+				top: 0;
+				left: 50%;
+			}
+		}
+		.button{
+			text-decoration: none;
+			padding: 10px 30px;
+			margin-left: 5px;
+			background-color: #989898;
+			color: #fff;
+			border-radius: 10px;
+			transition: background-color 0.5s;
+		}
+		.button:hover{
+			background-color: #737373;
+		}
+		select{
+			border-radius: 5px;
+			padding: 10px 30px;
+			font-size: 120%;
+		}
+	}
+}
