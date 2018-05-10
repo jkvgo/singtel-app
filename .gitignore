@@ -1,8 +1,5 @@
 # Dependency directories
 node_modules
 
-# Optional npm cache directory
-.npm
-
 # Prod Bundle
-build
+# build
