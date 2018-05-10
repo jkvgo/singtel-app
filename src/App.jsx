@@ -57,7 +57,7 @@ class App extends Component {
   //function that sets the current chosen progress bar
   //to the state so it can be accessed by other functions
   changeSelection(e){
-    let number = e.target.value.match(/\d+/g).map(Number, key)[0] - 1;
+    let number = e.target.value.match(/\d+/g).map(Number)[0] - 1;
     this.setState({
       chosenBar: number
     })
