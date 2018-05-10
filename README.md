@@ -1,5 +1,6 @@
 # Singtel Progress Bars Test
 
+Practice app for Singtel
 Simple web application with react, hot-reload, sass.
 
 The project uses Webpack for building production ready bundles and Jest for testing.
@@ -30,4 +31,6 @@ This project uses AirBnB Javascript specs so you can write error-free react and 
 ## How to contribute
 
 I wrote a [small guide](https://medium.com/@francesco.agnoletto/how-to-not-f-up-your-local-files-with-git-part-1-e0756c88fd3c) on how to contribute and the common etiquette to follow.
+
+
 
